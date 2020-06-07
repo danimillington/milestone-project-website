@@ -1,0 +1,15 @@
+Header - Full width
+Work - Half width
+About - Full width
+Contact - Third width
+
+< dani millington | web developer />
+
+Header & Sub header fonts  - Ubuntu mono 400
+Paragraph fonts - Ubuntu light 300  OR Ubuntu Condensed regular 400 
+
+I think what I need to fix are the sections
+I think either the image and it's paragraph need to have their own section, or they all need to be separate.
+Same goes for the about & contact portions. I think they need to be sectioned off so I can move them around more easily.
+
+

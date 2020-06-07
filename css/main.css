@@ -1,0 +1,254 @@
+/****** BASE STYLES ******/
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #2b2b2b;
+    background-color: #000;
+}
+
+#about, #work, #contact {
+    height: 600px;
+}
+
+/****** GRID ******/
+
+.full-width {
+    width: 1400px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 700px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/****** HEADER ******/
+
+header {
+  height: 800px;
+  background: url('../img/tech-background.jpg');
+  background-size: cover;
+}
+
+header h1 {
+    padding: 65px 0 65px 25px;
+    font-size:30px;
+    font-family: 'Ubuntu Mono', monospace;
+    color:#ff3a11;
+}
+
+/****** NAVIGATION ******/
+
+nav {
+    float: right;
+    padding: 55px 15px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform:uppercase;
+    text-decoration:none;
+    display:inline-block;
+	  margin-right:1px;
+    font-size:18px;
+    color:#fff;
+    padding-left: 5px;
+}
+header h2 {
+    width:1000px;
+    clear:both;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #fff;
+    padding: 20px 0 20px 25px;
+}
+header h2 span {
+    color:#FF8C27;
+}
+
+/****** ABOUT ******/
+
+#about .full-width {
+    padding: 15px 0 0 15px;
+    text-align: left;
+}
+
+#about h2 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 46px;
+    padding: 0 0 0 50px;
+    color: #FC1818;
+    text-align: center;
+}
+
+#about p {
+    font-size: 21px;
+    color: #000;
+    line-height: 25px;
+    padding: 0 100px 75px 100px;
+    text-align: left justify;
+}
+
+#about {
+  height: 550px;
+  background: url('../img/about-me.png');
+  background-size: auto;
+}
+
+/****** WORK ******/
+
+#work h2 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 36px;
+    color: #27DDFF;
+    background-color: #000;
+    background-size: cover;
+    text-align: center;
+}
+
+#portfolio {
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 30px;
+    color: #27DDFF;
+}
+
+#workimg1 {
+  height: 250px;
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 100px;
+    display:inline-block;
+    float:left;
+}
+
+#workimg2 {
+    height: 250px;
+      width: 250px;
+      margin-top: -150px;
+      margin-right:450px;
+      display:inline-block;
+      float:right;
+}
+
+#workimg3 {
+  height: 250px;
+    width: 250px;
+    margin-top: 90px;
+    margin-left: 100px;
+    display:inline-block;
+    float:left;
+}
+
+#work .full-width {
+    padding: 115px 0;
+    background-color: #000;
+    text-align: left;
+}
+
+#workp1 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 50px;
+    padding: 0 50px 550px 800px;
+    width:auto;
+    color: #fff;
+    text-align: left justify;
+}
+
+#workp2 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: -125px;
+    padding: 0 800px 0 100px;
+    width: auto;
+    color: #fff;
+    text-align: left justify;
+}
+
+#workp3 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 150px;
+    padding: 0 50px 150px 800px;
+    width: auto;
+    color: #fff;
+    text-align: left justify;
+}
+
+/****** CONTACT ******/
+
+#contact h2 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 36px;
+    color: #50FC18;
+    background-color: #000;
+    background-size: cover;
+    text-align: center;
+}
+
+#contact .third-width {
+    background-color: #000;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #EF1FFF;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#hire-me {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 20px 50px 50px 80px;
+  width: auto;
+  color: #fff;
+  text-align: right justify;
+}
+
+#follow-me {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  padding: -200px 20px 50px 800px;
+  width: auto;
+  color: #fff;
+  text-align: center;
+}
+
+ul#horizontal-list {
+	min-width: 700px;
+	list-style: none;
+	padding: 0px 0 0 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+
+#meet-me {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 20px 50px 50px 80px;
+  width: auto;
+  color: #fff;
+  text-align: right justify;
+}
